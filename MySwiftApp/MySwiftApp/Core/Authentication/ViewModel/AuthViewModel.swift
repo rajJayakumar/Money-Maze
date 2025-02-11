@@ -409,7 +409,7 @@ class AuthViewModel: ObservableObject {
         
     // Fetch ChatGPT response asynchronously
     func fetchTips() {
-        let apiKey = "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"
+        let apiKey = "********"
         let prompt = """
         You are a friendly chatbot in a budgeting app. Here is the user's data: Transactions: \(transactions). Categories: \(groups). Goals: \(goals). Using this data, give a SHORT & SIMPLE tip for the user to improve their spending habits. Only give the tip, no extra text to indicate that you are ChatGPT. Make sure to give it all in plain text and no formatting to prevent any errors in the app.
         """
