@@ -106,7 +106,7 @@ struct ChatBotView: View {
         // Call ChatGPT API
         Task {
             do {
-                let apiKey = "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"
+                let apiKey = "********"
                 let botResponse = try await fetchChatGPTResponse(prompt: prompt, apiKey: apiKey)
 
                 // Add the bot's response to the chat
